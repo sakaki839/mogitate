@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\ContactController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -13,6 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// ute::get('/', function () {
+    // return viRoew('welcome');
+// });
+Route::get('/', [ContactController::class, 'products']);
+// Route::get('./', [ContactController::class, 'register']);
+
+Route::get('/register', [ContactController::class, 'register']);
+// Route::post('/register', [ContactController::class, 'register']);
+
+Route::get('/productId', [ContactController::class, 'productId']);

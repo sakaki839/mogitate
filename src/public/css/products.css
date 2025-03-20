@@ -1,0 +1,103 @@
+body {
+    margin: 0 auto;
+    background-color: #d6d6d7;
+    width: 85%;
+}
+
+header {
+    width: 100%;
+    background-color: #fff;
+    height: 50px;
+}
+
+footer {
+    width: 100%;
+    /* background-color: lightseagreen; */
+    height: 50px;
+}
+
+.flexbox-container {
+    display: flex;
+}
+
+main {
+    width: 20%;
+    min-width: 20%;
+    margin: auto;
+    /* background-color: lightgreen; */
+    height: 450px;
+}
+
+aside {
+    width: 75%;
+    min-width: 75%;
+    margin: auto;
+    height: 500px;
+    /* background-color: blue; */
+}
+
+.shouhinn {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-template-rows: 60% 50%;
+    /* background-color: aqua; */
+
+}
+
+.item {
+    /* background: #0bd; */
+    /* color: #fff; */
+    padding: 10px;
+}
+
+.absolute {
+    width: 250px;
+    height: 150px;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin: 3px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button01 {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    background-color: #96b97d;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button03 {
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 30px;
+    margin: 5px;
+    background-color: #f2e423;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+}
